@@ -1,11 +1,16 @@
-# 📟 Villa’s dotfiles
+# Villa’s dotfiles
 
-## Stack
+## Tools
 
 - Terminal: [Kitty](https://github.com/lucasvillarinho/dotfiles/tree/main/kitty)
 - Window management: [Yabai](https://github.com/lucasvillarinho/dotfiles/tree/main/yabai)
 - Prompt: [Starship](https://github.com/lucasvillarinho/dotfiles/tree/main/starship)
-- Code: [Neovim - NVChad]()
+- Code: [Neovim](https://github.com/lucasvillarinho/dotfiles/tree/main/nvim)
+
+## Wallpaper 
+
+- Photo by Andre Pill 
+ - https://www.flickr.com/photos/hipstapill/32042334141/
 
 ## Feedback
 

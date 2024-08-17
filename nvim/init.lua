@@ -35,3 +35,18 @@ require "nvchad.autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+
+local autocmd = vim.api.nvim_create_autocmd
+
+autocmd("BufWritePre", {
+  pattern = "*",
+  callback = function()
+    vim.lsp.buf.format({ async = false })
+  end,
+})
+
+require("nvim-tree").setup({
+  filters = {
+    dotfiles = false,
+  },
+})
