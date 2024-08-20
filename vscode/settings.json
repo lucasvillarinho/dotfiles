@@ -1,0 +1,49 @@
+{
+    "workbench.colorTheme": "Catppuccin Noctis Mocha",
+    "symbols.hidesExplorerArrows": true,
+    "workbench.iconTheme": "ayu-mirage-zed",
+    "editor.lineHeight": 1.5,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.renderLineHighlight": "gutter",
+    "editor.fontLigatures": true,
+    "workbench.editor.labelFormat": "short",
+    "explorer.compactFolders": false,
+    "workbench.activityBar.location": "top",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "apc.electron": {
+        "titleBarStyle": "hidden",
+        "trafficLightPosition": {
+            "x": 11,
+            "y": 10
+        },
+        "frame": true
+    },
+    "window.commandCenter": false,
+    "apc.header": {
+        "height": 36
+    },
+    "apc.listRow": {
+        "height": 24
+    },
+    "apc.stylesheet": {
+        ".title-label > h2" : "display: none",
+        ".pane-body" : "padding: 8px",
+        ".pane-header" : "padding: 0 8px"
+    },
+    "explorer.fileNesting.enabled": true,
+    "go.toolsManagement.autoUpdate": true,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "workbench.productIconTheme": "fluent-icons",
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit",
+        "source.fixAll": "explicit"
+    },
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "breadcrumbs.enabled": false,
+    "workbench.statusBar.visible": false, 
+    "workbench.layoutControl.enabled": false
+}
