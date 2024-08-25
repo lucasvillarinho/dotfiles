@@ -1,11 +1,13 @@
 create-symlink-farm:
 	@stow starship -t ~/.config/
 	@stow yabai -t ~/.config/yabai
+	@stow kitty -t ~/.config/kitty
 	@stow skhd -t ~/.config/skhd
 
 remove-symlink-farm:
 	@stow -D starship -t ~/.config/
 	@stow -D yabai -t ~/.config/yabai
+	@stow kitty -t ~/.config/kitty
 	@stow skhd -t ~/.config/skhd
 
 start-yabai:
