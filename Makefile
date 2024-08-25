@@ -1,14 +1,14 @@
 create-symlink-farm:
-	@stow starship -t ~/.config/
+	@stow tmux -t ~/
 	@stow yabai -t ~/.config/yabai
 	@stow kitty -t ~/.config/kitty
 	@stow skhd -t ~/.config/skhd
 
 remove-symlink-farm:
-	@stow -D starship -t ~/.config/
+	@stow -D tmux -t ~/
 	@stow -D yabai -t ~/.config/yabai
-	@stow kitty -t ~/.config/kitty
-	@stow skhd -t ~/.config/skhd
+	@stow kitty -D ~/.config/kitty
+	@stow skhd -D ~/.config/skhd
 
 start-yabai:
 	@yabai --start-service
@@ -21,3 +21,8 @@ stop-yabai:
 
 start-skhd:
 	@skhd --start-service --config ~/.config/skhd/skhdrc
+
+# Obs: run this command after changing the tmux configuration 
+reload-tmux:
+	@tmux source-file ~/.tmux.conf
+

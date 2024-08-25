@@ -2,18 +2,22 @@
 
 ### Tools
 
-- Terminal: [Warp]()
+- Terminal: [Kitty](https://github.com/lucasvillarinho/dotfiles/tree/main/kitty)
 - Window management: [Yabai](https://github.com/lucasvillarinho/dotfiles/tree/main/yabai)
 - Prompt: [Starship](https://github.com/lucasvillarinho/dotfiles/tree/main/starship)
 - Editor: [VSCode](https://github.com/lucasvillarinho/dotfiles/tree/vscode)
 
-### Wallpaper
+- Terminal Multiplexer: [Tmux](https://github.com/lucasvillarinho/dotfiles/tree/tmux)
 
-- [Photo by Andre Pill](https://www.flickr.com/photos/hipstapill/32042334141/)
-  
 ### Feedback
 
 Suggestions/improvements -> [Issues](https://github.com/lucasvillarinho/dotfiles/issues)
+
+### Commands
+
+**Tmux**
+
+- Install plugins ->  `prefix + I`
 
 ### Author
 
