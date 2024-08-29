@@ -1,5 +1,7 @@
 # `~/.dotfiles`
 
+![alt text](images/image.png)
+
 ### Tools
 
 - Terminal: [Kitty](https://github.com/lucasvillarinho/dotfiles/tree/main/kitty)
