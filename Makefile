@@ -4,6 +4,7 @@ create-symlink-farm:
 	@stow kitty -t ~/.config/kitty
 	@stow skhd -t ~/.config/skhd
 	@stow p10k -t ~/
+	@stow neofetch -t ~/.config/neofetch
 
 remove-symlink-farm:
 	@stow tmux -D ~/
@@ -11,6 +12,7 @@ remove-symlink-farm:
 	@stow kitty -D ~/.config/kitty
 	@stow skhd -D ~/.config/skhd
 	@stow p10k -D ~/
+	@stow neofetch -D ~/.config/neofetch
 
 start-yabai:
 	@yabai --start-service
