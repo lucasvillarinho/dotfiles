@@ -3,12 +3,14 @@ create-symlink-farm:
 	@stow yabai -t ~/.config/yabai
 	@stow kitty -t ~/.config/kitty
 	@stow skhd -t ~/.config/skhd
+	@stow p10k -t ~/
 
 remove-symlink-farm:
-	@stow -D tmux -t ~/
-	@stow -D yabai -t ~/.config/yabai
+	@stow tmux -D ~/
+	@stow yabai -D ~/.config/yabai
 	@stow kitty -D ~/.config/kitty
 	@stow skhd -D ~/.config/skhd
+	@stow p10k -D ~/
 
 start-yabai:
 	@yabai --start-service
@@ -22,7 +24,6 @@ stop-yabai:
 start-skhd:
 	@skhd --start-service --config ~/.config/skhd/skhdrc
 
-# Obs: run this command after changing the tmux configuration 
 reload-tmux:
 	@tmux source-file ~/.tmux.conf
 
