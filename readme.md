@@ -13,11 +13,15 @@
 
 Suggestions/improvements -> [Issues](https://github.com/lucasvillarinho/dotfiles/issues)
 
-### Commands
+### Tmux
 
-**Tmux**
+#### Commands
 
-- Install plugins ->  `prefix + I`
+- `prefix + I` ->  Install plugins
+- `prefix + |` -> Split the current pane into two, left and right
+- `prefix + _` -> Split the current pane into two, top and bottom
+- `prefix + \` -> Split current pane full width into two, left and right
+- `prefix + _` -> split current pane full height into two, top and bottom
 
 ### Author
 

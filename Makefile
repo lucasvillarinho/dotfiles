@@ -3,14 +3,12 @@ create-symlink-farm:
 	@stow yabai -t ~/.config/yabai
 	@stow kitty -t ~/.config/kitty
 	@stow skhd -t ~/.config/skhd
-	@stow nvim -t ~/.config/nvim
 
 remove-symlink-farm:
 	@stow -D tmux -t ~/
 	@stow -D yabai -t ~/.config/yabai
 	@stow kitty -D ~/.config/kitty
 	@stow skhd -D ~/.config/skhd
- 	@stow nvim -t ~/.config/nvim
 
 start-yabai:
 	@yabai --start-service

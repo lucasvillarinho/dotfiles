@@ -40,10 +40,5 @@
         "source.organizeImports": "explicit",
         "source.fixAll": "explicit"
     },
-    "git.autofetch": true,
-    "git.enableSmartCommit": true,
-    "git.confirmSync": false,
-    "breadcrumbs.enabled": false,
-    "workbench.statusBar.visible": false, 
-    "workbench.layoutControl.enabled": false
+    "workbench.statusBar.visible": false,
 }
