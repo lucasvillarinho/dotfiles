@@ -9,7 +9,7 @@
 - Prompt: [Starship](https://github.com/lucasvillarinho/dotfiles/tree/main/starship)
 - Editor: [VSCode](https://github.com/lucasvillarinho/dotfiles/tree/vscode)
 
-- Terminal Multiplexer: [Tmux](https://github.com/lucasvillarinho/dotfiles/tree/tmux)
+- Terminal Multiplexer: [Tmux](https://github.com/lucasvillarinho/dotfiles/tree/main/tmux)
 
 ### Feedback
 
