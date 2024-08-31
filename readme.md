@@ -8,7 +8,7 @@
 - window management: [yabai](https://github.com/lucasvillarinho/dotfiles/tree/main/yabai)
 - prompt: [p10k](https://github.com/lucasvillarinho/dotfiles/tree/main/p10k)
 - editor: [vsode](https://github.com/lucasvillarinho/dotfiles/tree/main/vscode)
-- dotfiles manager: [dotbot](https://github.com/anishathalye/dotbot)
+- dotfiles management: [dotbot](https://github.com/anishathalye/dotbot)
 - terminal multiplexer: [tmux](https://github.com/lucasvillarinho/dotfiles/tree/main/tmux)
 
 ### tmux
