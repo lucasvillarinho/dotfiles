@@ -4,13 +4,12 @@
 
 ### tools
 
-- terminal: [Kitty](https://github.com/lucasvillarinho/dotfiles/tree/main/kitty)
-- window management: [Yabai](https://github.com/lucasvillarinho/dotfiles/tree/main/yabai)
+- terminal: [kitty](https://github.com/lucasvillarinho/dotfiles/tree/main/kitty)
+- window management: [yabai](https://github.com/lucasvillarinho/dotfiles/tree/main/yabai)
 - prompt: [p10k](https://github.com/lucasvillarinho/dotfiles/tree/main/p10k)
-- wditor: [VSCode](https://github.com/lucasvillarinho/dotfiles/tree/main/vscode)
+- editor: [vsode](https://github.com/lucasvillarinho/dotfiles/tree/main/vscode)
 - dotfiles manager: [dotbot](https://github.com/anishathalye/dotbot)
-
-- Terminal Multiplexer: [Tmux](https://github.com/lucasvillarinho/dotfiles/tree/main/tmux)
+- terminal multiplexer: [tmux](https://github.com/lucasvillarinho/dotfiles/tree/main/tmux)
 
 ### tmux
 
