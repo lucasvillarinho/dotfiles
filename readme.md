@@ -21,7 +21,7 @@
 - `prefix + \` -> Split current pane full width into two, left and right
 - `prefix + _` -> split current pane full height into two, top and bottom
 
-### Author
+### author
 
 | [![linkedin/villa](https://2.gravatar.com/avatar/b7bc60966732c7f7a4dfb0bff467e0ce20ff1aae5c66db6620894bc9b5ae0e75?size=70)](https://www.linkedin.com/in/lucas-villarinho/) |
 |---|
