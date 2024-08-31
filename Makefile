@@ -5,6 +5,7 @@ create-symlink-farm:
 	@stow skhd -t ~/.config/skhd
 	@stow p10k -t ~/
 	@stow neofetch -t ~/.config/neofetch
+	@stow nvim -t ~/.config/nvim
 
 remove-symlink-farm:
 	@stow tmux -D ~/
@@ -13,6 +14,7 @@ remove-symlink-farm:
 	@stow skhd -D ~/.config/skhd
 	@stow p10k -D ~/
 	@stow neofetch -D ~/.config/neofetch
+	@stow nvim -D ~/.config/nvim
 
 start-yabai:
 	@yabai --start-service
