@@ -7,9 +7,6 @@ restart-yabai:
 stop-yabai:
 	@yabai --stop-service
 
-start-skhd:
-	@skhd --start-service --config ~/.config/skhd/skhdrc
-
 reload-tmux:
 	@tmux source-file ~/.tmux.conf
 
