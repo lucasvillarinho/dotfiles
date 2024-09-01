@@ -19,6 +19,11 @@ source $ZSH/oh-my-zsh.sh
 # Carregar a configuração do Powerlevel10k, se o arquivo existir
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# Carregar scripts do GVM (Go Version Manager)
-[[ -s "/Users/villarinho/.gvm/scripts/gvm" ]] && source "/Users/villarinho/.gvm/scripts/gvm"
-[[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
+
+export GOROOT="${HOME}/.g/go"
+export GOPATH="${HOME}/go"
+export PATH="${HOME}/.g/bin:${GOROOT}/bin:${GOPATH}/bin:$PATH"
+export G_MIRROR=https://golang.google.cn/dl/
+
+
+alias ggovm='$HOME/go/bin/g'
