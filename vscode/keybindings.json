@@ -1,0 +1,42 @@
+[
+    {
+        "key": "cmd+p",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "cmd+p",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl-r",
+        "command": "workbench.action.navigateLeft"
+    },
+    {
+        "key": "ctrl-l",
+        "command": "workbench.action.navigateRight"
+    },
+    {
+        "key": "ctrl-j",
+        "command": "workbench.action.navigateDown"
+    },
+    {
+        "key": "ctrl-k",
+        "command": "workbench.action.navigateUp"
+    },
+    {
+        "key": "ctrl-e",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl-t",
+        "command": "workbench.view.extension.test"
+    },
+    {
+        "key": "ctrl-d",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl-c",
+        "command": "go.test.coverage"
+    }
+]
