@@ -29,7 +29,7 @@
 
 ### feedback
 
-Suggestions/improvements -> [Issues](https://github.com/lucasvillarinho/dotfiles/issues)
+Suggestions/improvements: [Issues](https://github.com/lucasvillarinho/dotfiles/issues)
 
 ### license
 
