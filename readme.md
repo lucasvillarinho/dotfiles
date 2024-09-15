@@ -10,6 +10,7 @@
 - editor: [vsode](https://github.com/lucasvillarinho/dotfiles/tree/main/vscode)
 - dotfiles management: [dotbot](https://github.com/anishathalye/dotbot)
 - terminal multiplexer: [tmux](https://github.com/lucasvillarinho/dotfiles/tree/main/tmux)
+- stats on menu bar: [stats](https://github.com/lucasvillarinho/dotfiles/tree/main/stats)
 
 ### tmux
 
