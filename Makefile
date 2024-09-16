@@ -8,7 +8,7 @@ stop-yabai:
 	@yabai --stop-service
 
 reload-tmux:
-	@tmux source-file ~/.tmux.conf
+_	@tmux source-file ~/.tmux.conf
 
 make install-dotfiles:
 	./install
