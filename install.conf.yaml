@@ -7,6 +7,7 @@
 - link:
     ~/.tmux.conf: tmux/.tmux.conf
     ~/.zshrc: zsh/.zshrc
+    ~/.config/nvim: nvim
     ~/.config/kitty: kitty
     ~/.config/yabai: yabai
     ~/.p10k.zsh: p10k/.p10k.zsh

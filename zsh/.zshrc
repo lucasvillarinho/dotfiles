@@ -27,3 +27,10 @@ export G_MIRROR=https://golang.google.cn/dl/
 
 
 alias ggovm='$HOME/go/bin/g'
+
+# bun completions
+[ -s "/Users/villarinho/.bun/_bun" ] && source "/Users/villarinho/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
