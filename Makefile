@@ -12,3 +12,4 @@ reload-tmux:
 
 make install-dotfiles:
 	./install
+

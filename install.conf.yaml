@@ -11,3 +11,4 @@
     ~/.config/yabai: yabai
     ~/.p10k.zsh: p10k/.p10k.zsh
     ~/.config/neofetch: neofetch
+    ~/.skhdrc: skhd/.skhdrc
