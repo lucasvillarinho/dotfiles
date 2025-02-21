@@ -9,5 +9,4 @@
     ~/.zshrc: zsh/.zshrc
     ~/.config/yabai: yabai
     ~/.config/ghostty: ghostty
-    ~/.p10k.zsh: p10k/.p10k.zsh
     ~/.config/neofetch: neofetch
