@@ -35,9 +35,6 @@ alias ggovm='$HOME/go/bin/g'
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
-# rails 
-export PATH="$HOME/.rbenv/bin:$PATH"
-if command -v rbenv > /dev/null; then
-  eval "$(rbenv init -)"
-fi
+# [ -s "${HOME}/.g/env" ] && \. "${HOME}/.g/env"  # g shell setup
 
+[[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
