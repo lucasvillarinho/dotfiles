@@ -7,9 +7,8 @@ restart-yabai:
 stop-yabai:
 	@yabai --stop-service
 
-reload-tmux:
-	@tmux source-file ~/.tmux.conf
-
 install-dotfiles:
 	./install
 
+sketchybar-reload:
+	sketchybar --reload

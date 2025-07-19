@@ -5,8 +5,7 @@
       force: true
 
 - link:
-    ~/.tmux.conf: tmux/.tmux.conf
     ~/.zshrc: zsh/.zshrc
     ~/.config/yabai: yabai
-    ~/.config/ghostty: ghostty
     ~/.config/neofetch: neofetch
+    ~/.config/sketchybar: sketchybar
