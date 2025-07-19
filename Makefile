@@ -9,6 +9,3 @@ stop-yabai:
 
 install-dotfiles:
 	./install
-
-sketchybar-reload:
-	sketchybar --reload
