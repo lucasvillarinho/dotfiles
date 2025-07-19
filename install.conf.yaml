@@ -8,3 +8,5 @@
     ~/.zshrc: zsh/.zshrc
     ~/.config/yabai: yabai
     ~/.config/neofetch: neofetch
+    ~/.config/skhd: skhd
+    
