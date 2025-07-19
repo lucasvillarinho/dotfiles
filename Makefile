@@ -10,6 +10,6 @@ stop-yabai:
 reload-tmux:
 	@tmux source-file ~/.tmux.conf
 
-make install-dotfiles:
+install-dotfiles:
 	./install
 

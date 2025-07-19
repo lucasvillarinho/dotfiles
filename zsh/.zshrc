@@ -38,3 +38,16 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 # [ -s "${HOME}/.g/env" ] && \. "${HOME}/.g/env"  # g shell setup
 
 [[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/villarinho/Documents/cli-downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/villarinho/Documents/cli-downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/villarinho/Documents/cli-downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/villarinho/Documents/cli-downloads/google-cloud-sdk/completion.zsh.inc'; fi
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && \. "/usr/local/opt/nvm/nvm.sh"
+[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && \. "/usr/local/opt/nvm/etc/bash_completion"
+. "$HOME/.local/bin/env"
+source $HOME/.local/bin/env
+eval "$(~/.local/bin/mise activate)"
