@@ -12,15 +12,22 @@
 - terminal multiplexer: [tmux](https://github.com/lucasvillarinho/dotfiles/tree/main/tmux)
 - stats on menu bar: [stats](https://github.com/lucasvillarinho/dotfiles/tree/main/stats)
 
-### tmux
+### Border
 
-#### commands
+[JankyBorders](https://github.com/FelixKratz/JankyBorders?tab=readme-ov-file)
 
-- `prefix + I` ->  Install plugins
-- `prefix + |` -> Split the current pane into two, left and right
-- `prefix + _` -> Split the current pane into two, top and bottom
-- `prefix + \` -> Split current pane full width into two, left and right
-- `prefix + _` -> split current pane full height into two, top and bottom
+#### install
+
+```bash
+brew tap FelixKratz/formulae
+brew install borders
+```
+
+#### Start
+
+```bash
+brew services start borders
+```
 
 ### author
 
