@@ -29,24 +29,6 @@ brew install borders
 brew services start borders
 ```
 
-### Menu bar
-
-[SketchyBar](https://felixkratz.github.io/SketchyBar)
-
-#### install
-
-```bash
-brew tap FelixKratz/formulae
-brew install sketchybar
-```
-
-#### Start
-
-```bash
-brew services start sketchybar
-```
-
-
 ### author
 
 | [![linkedin/villa](https://2.gravatar.com/avatar/b7bc60966732c7f7a4dfb0bff467e0ce20ff1aae5c66db6620894bc9b5ae0e75?size=70)](https://www.linkedin.com/in/lucas-villarinho/) |
