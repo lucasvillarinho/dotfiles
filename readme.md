@@ -1,10 +1,28 @@
 # `~/.dotfiles`
 
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/lucasvillarinho/dotfiles.git ~/.dotfiles
+   cd ~/.dotfiles
+   ```
+
+2. Install dotfiles:
+   ```bash
+   ./install
+   # or
+   make install
+   ```
+
+3. To uninstall:
+   ```bash
+   make uninstall
+   ```
+
 ### tools
 
-- terminal: [warp](https://github.com/lucasvillarinho/dotfiles/tree/main/warp)
 - window management: [yabai](https://github.com/lucasvillarinho/dotfiles/tree/main/yabai)
-- editor: [vsode](https://github.com/lucasvillarinho/dotfiles/tree/main/vscode)
 - dotfiles management: [dotbot](https://github.com/anishathalye/dotbot)
 
 ### author

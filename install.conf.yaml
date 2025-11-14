@@ -1,0 +1,15 @@
+- defaults:
+    link:
+      relink: true
+      create: true
+
+- clean: ['~']
+
+- link:
+    ~/.config/yabai/yabairc: yabai/.config/yabai/yabairc
+
+- create:
+    - ~/.config/yabai
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
