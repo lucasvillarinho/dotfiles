@@ -3,12 +3,14 @@
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/lucasvillarinho/dotfiles.git ~/.dotfiles
    cd ~/.dotfiles
    ```
 
 2. Install dotfiles:
+
    ```bash
    ./install
    # or

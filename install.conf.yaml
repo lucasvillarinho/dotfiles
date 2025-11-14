@@ -3,13 +3,15 @@
       relink: true
       create: true
 
-- clean: ['~']
+- clean: ["~"]
 
 - link:
-    ~/.config/yabai/yabairc: yabai/.config/yabai/yabairc
+    ~/.config/yabai/yabairc: yabai/yabairc
+    ~/.config/ghostty/config: ghostty/config
 
 - create:
     - ~/.config/yabai
+    - ~/.config/ghostty
 
 - shell:
-  - [git submodule update --init --recursive, Installing submodules]
+    - [git submodule update --init --recursive, Installing submodules]
