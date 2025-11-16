@@ -12,8 +12,5 @@
     ~/.config/fish/config.fish: fish/config.fish
     ~/.config/starship.toml: starship/starship.toml
 
-- create:
-    - ~/.config/yabai
-
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
