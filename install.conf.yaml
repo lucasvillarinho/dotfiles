@@ -9,6 +9,7 @@
     ~/.config/yabai/yabairc: yabai/yabairc
     ~/.config/kitty/kitty.conf: kitty/kitty.conf
     ~/.config/kitty/theme.conf: kitty/theme.conf
+    ~/.config/fish/config.fish: fish/config.fish
 
 - create:
     - ~/.config/yabai
