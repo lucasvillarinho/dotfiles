@@ -7,3 +7,8 @@ theme = Catppuccin Macchiato
 
 window-width = 190
 window-height = 45
+
+window-padding-balance = true
+window-padding-x = 5
+window-padding-y = 0
+macos-titlebar-style = transparent
