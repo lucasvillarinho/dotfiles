@@ -12,3 +12,8 @@ window-padding-balance = true
 window-padding-x = 5
 window-padding-y = 0
 macos-titlebar-style = transparent
+
+# keybindings
+keybind = cmd+shift+left=previous_tab
+keybind = cmd+shift+right=next_tab
+keybind = cmd+shift+i=inspector:toggle
